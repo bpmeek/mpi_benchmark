@@ -28,4 +28,4 @@ elif rank == 4:
     s3 = comm.recv(source=2, tag=11)
     s4 = comm.recv(source=3, tag=11)
     print s1+s2+s3+s4
-print(MPI.Wtime() - wt)
+    print(MPI.Wtime() - wt)
